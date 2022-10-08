@@ -1,0 +1,73 @@
+.head {
+height : 100px ;
+width : 120px ;
+background-color :blue;
+border-radius : 50% 50% 0% 0% ;
+margin-left : 49.3% ;
+color: white ;
+font-size: 2cm ;
+text-align: center ;
+}
+
+.left {
+    height : 100px ;
+    width : 40px ;
+    background-color : blue ;
+    margin-left: 613px;
+    margin-right: -650px;
+    margin-top: 5px;
+    border-radius: 110px 110px 110px 110px;
+}
+
+.bod{
+    height: 140px;
+    width: 120px;
+    background-color: blue;
+    margin-left: 660px;
+    margin-top: 5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.right{
+    height: 100px;
+    width: 40px;
+    background-color: blue;
+    border-radius: 110px 110px 110px 110px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.lwst{
+    display: flex;
+}
+
+.lgochya{
+    height:120px;
+    width: 40px;
+    background-color: blue;
+    margin-left: 18px; /*distance between limnya o lgochya*/
+    border-radius: 110px 110px 110px 110px;
+    margin-top: -20px;
+}
+
+.limnya{
+    height: 120px;
+    width: 40px;
+    background-color: blue;
+    margin-left: 675px; /* ka df3 liminya mn lissr*/
+    border-radius: 110px 110px 110px 110px;
+    margin-top: -20px;
+}
+
+.rjilat{
+    display: flex;
+}
+
+.left:hover,.limnya:hover{
+    transform: rotate(20deg);
+}
+
+.lgochya:hover,.right:hover{
+    transform: rotate(-20deg);
+}
